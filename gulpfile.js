@@ -50,6 +50,9 @@ gulp.task('copyfiles', function() {
    gulp.src('./bower_components/animate.css/*.min.css')
    .pipe(gulp.dest('./build/css'));
 
+   gulp.src('./bower_components/linqjs/linq.min.js')
+   .pipe(gulp.dest('./build/js'));
+
 });
 
 

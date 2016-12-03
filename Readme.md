@@ -1,6 +1,7 @@
 # Build
 
 ```bash
+sudo apt install npm nodejs-legacy -y
 npm install
 gulp bower
 gulp copyfiles
