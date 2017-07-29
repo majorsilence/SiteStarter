@@ -2,6 +2,7 @@
 
 ```bash
 sudo apt install npm nodejs-legacy -y
+sudo npm install gulp -g
 npm install
 gulp bower
 gulp copyfiles

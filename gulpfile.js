@@ -14,10 +14,10 @@ gulp.task('copyfiles', function() {
    gulp.src('./bower_components/bootstrap/dist/js/*.min.js')
    .pipe(gulp.dest('./build/js'));
 
-   gulp.src('./bower_components/jquery/dist/*.min.js')
+   gulp.src('./bower_components/jquery/dist/jquery.min.js')
    .pipe(gulp.dest('./build/js'));
 
-   gulp.src('./bower_components/jquery-pjax/dist/jquery.pjax.js')
+   gulp.src('./bower_components/jquery-pjax/jquery.pjax.js')
    .pipe(gulp.dest('./build/js'));
 
    gulp.src('./bower_components/kendo-ui/js/kendo.ui.core.min.js')
