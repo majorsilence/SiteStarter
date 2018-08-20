@@ -3,8 +3,13 @@
 ```bash
 sudo apt install npm nodejs-legacy -y
 sudo npm install gulp -g
+sudo npm install yarn -g
 npm install
-gulp bower
+yarn
+cd bower_components/kendo-ui
+gulp build
+cd ..
+cd ..
 gulp copyfiles
 ```
 
